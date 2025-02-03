@@ -53,6 +53,10 @@
          }
       }
 
+      .modal__choosed {
+         display: none;
+      }
+
       .city-search {
          position: relative;
 
@@ -264,7 +268,7 @@
                width: 13px;
                height: 14px;
                transform: translateY(-50%);
-               background-image: url("/img/search.svg");
+               background-image: url(../img/search.svg);
                background-repeat: no-repeat;
                background-position: center;
                background-size: contain;
